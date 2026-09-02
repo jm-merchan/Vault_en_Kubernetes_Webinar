@@ -89,62 +89,99 @@ cd Vault_on_Kubernetes_Webinar
 ### 6) Auto-unseal con AWS KMS
 
 17. `Auto_unseal_AWS_AssumeRole.ipynb`
-- Laboratorio de compatibilidad para `seal "awskms"` con credenciales compartidas y `role_arn`.
-- Crea un usuario bootstrap limitado a `sts:AssumeRole`, un role con acceso a KMS y monta el perfil AWS dentro de los pods.
-- Documenta una limitación comprobada de Vault Enterprise 2.1.0: la configuración acepta `role_arn`, pero la cadena de credenciales selecciona antes el perfil compartido y KMS recibe la identidad del usuario bootstrap.
+- Auto-unseal on-prem (Minikube) con `seal "awskms"`, usuario bootstrap y `sts:AssumeRole`.
+- Verificado en Vault Enterprise 2.1.0: CloudTrail muestra `kms:Encrypt` / `Decrypt` / `DescribeKey` como `AssumedRole` `vault-kms-unseal`, no como el usuario `vault-autounseal`.
+- El token STS se obtiene al arrancar el proceso y dura 1 hora; no se refresca en caliente. Un `ASIA…` nuevo solo aparece tras reiniciar el Pod.
+- Sigue habiendo access keys largas en un Secret de Kubernetes.
 
 18. `Auto_unseal_AWS_WebIdentity_OIDC.ipynb`
-- Implementación funcional mediante Kubernetes Service Account, OIDC y `AssumeRoleWithWebIdentity`.
-- Utiliza un token proyectado y renovable; Vault obtiene credenciales STS temporales sin almacenar access keys de AWS en Kubernetes.
-- Es la opción recomendada en Vault Enterprise 2.1.0 para auto-unseal con credenciales renovables desde un Kubernetes externo a AWS.
+- Auto-unseal con Service Account, OIDC y `AssumeRoleWithWebIdentity`.
+- Token proyectado y renovable; no hay access keys de AWS en Kubernetes.
+- Opción recomendada en 2.1.0 cuando se necesitan credenciales que se renueven solas desde un Kubernetes externo a AWS.
 
 19. `Auto_unseal_AWS_WebIdentity_OIDC_Terraform.ipynb`
 - Variante equivalente que gestiona con Terraform el proveedor OIDC, IAM role, policies y clave KMS.
 - Mantiene en Kubernetes/Helm la configuración de Minikube, token proyectado y Vault.
 
-## Compatibilidad de AWS KMS AssumeRole
+## Auto-unseal AssumeRole en Vault Enterprise 2.1.0
 
-Que una clave sea aceptada dentro de `seal "awskms"` significa que el parser y el wrapper pueden leerla; no garantiza que cualquier combinación de providers produzca la identidad final esperada.
-
-Vault Enterprise 2.1.0 incorpora estas dependencias para el seal AWS KMS:
+Vault Enterprise 2.1.0 usa estas dependencias para el seal AWS KMS:
 
 ```text
 github.com/hashicorp/go-kms-wrapping/wrappers/awskms/v2 v2.0.11
 github.com/hashicorp/go-secure-stdlib/awsutil v0.3.0
 ```
 
-Con esta combinación, el uso conjunto de:
+El shared-credentials provider de `awsutil` v0.3.0 **solo** lee `aws_access_key_id` / `aws_secret_access_key`. Ignora `role_arn` y `source_profile` en el fichero INI. La cadena elige el **primer** provider válido:
+
+1. Shared credentials del `shared_creds_profile`
+2. AssumeRole, **solo si** el stanza define `role_arn`
+3. Instance metadata (no existe on-prem)
+
+### Patrón verificado (KMS como rol)
+
+Fichero montado en `/vault/userconfig/aws/credentials`:
+
+```ini
+[default]
+aws_access_key_id=...
+aws_secret_access_key=...
+
+[vault-bootstrap]
+role_arn=arn:aws:iam::<account>:role/vault-kms-unseal
+role_session_name=vault-auto-unseal
+source_profile=default
+```
 
 ```hcl
-shared_creds_filename = "/vault/userconfig/aws/credentials"
-shared_creds_profile  = "vault-bootstrap"
-role_arn              = "arn:aws:iam::<account>:role/vault-kms-unseal"
+seal "awskms" {
+  region                = "eu-west-3"
+  kms_key_id            = "<kms-key-id>"
+  shared_creds_filename = "/vault/userconfig/aws/credentials"
+  shared_creds_profile  = "vault-bootstrap"
+  role_arn              = "arn:aws:iam::<account>:role/vault-kms-unseal"
+  role_session_name     = "vault-auto-unseal"
+}
 ```
 
-construye una cadena en la que el shared credentials provider aparece antes que el provider AssumeRole. Como las credenciales bootstrap son válidas, AWS selecciona ese primer provider y la llamada KMS se firma como el usuario:
+En el Pod: `AWS_SHARED_CREDENTIALS_FILE=/vault/userconfig/aws/credentials`. No definir `AWS_PROFILE`.
+
+`[vault-bootstrap]` no tiene keys, así que el shared-credentials provider falla. `role_arn` en el stanza añade AssumeRole. La sesión interna lee `[default]` vía `AWS_SHARED_CREDENTIALS_FILE`.
+
+El trust del role debe nombrar el ARN del usuario en `Principal`. Account-root más condición `aws:PrincipalArn` exige la policy de identidad del usuario y puede quedar denegado por un permissions boundary.
+
+CloudTrail (Event history, región de KMS):
+
+- `sts:AssumeRole` por `IAMUser` `vault-autounseal` sobre `role/vault-kms-unseal`
+- `kms:Encrypt` / `Decrypt` / `DescribeKey` con `userIdentity.type = AssumedRole` y ARN `…/assumed-role/vault-kms-unseal/vault-auto-unseal`
+
+### Patrones que fallan
 
 ```text
-shared credentials ──▶ usuario bootstrap ──▶ KMS ──▶ AccessDenied
-                          │
-                          └── AssumeRole posterior no seleccionado
+Keys estáticas en el mismo profile que selecciona Vault
+  + role_arn en el stanza
+  → shared credentials gana → KMS se firma como el usuario
+
+role_arn / source_profile solo en el INI, sin role_arn en el stanza
+  → NoCredentialProviders
 ```
 
-La policy del laboratorio niega deliberadamente KMS al usuario bootstrap. Concedérselo haría arrancar Vault, pero dejaría de probar AssumeRole y rompería la separación de privilegios.
+No concedas KMS al usuario bootstrap para “hacer arrancar” Vault: dejarías de probar AssumeRole.
 
-La nueva generación del wrapper, `awskms/v3` y `awskms/v4`, utiliza `awsutil/v2` y AWS SDK for Go v2 para componer correctamente el role sobre las credenciales fuente. La rama principal de Vault ya usa esta generación, pero Vault 2.1.0 es todavía la última release publicada y conserva el wrapper anterior. Debe comprobarse el `go.mod` o el binario de cada nueva release antes de asumir que incluye la corrección.
+### Vida del token STS
 
-Consecuencias prácticas:
+`awsutil` v0.3.0 guarda las credenciales STS en un `StaticProvider` al arrancar. Un Pod en ejecución **no** vuelve a llamar a `AssumeRole`. La sesión dura 1 hora (`MaxSessionDuration=3600`). Una `sts_key` (`ASIA…`) distinta en CloudTrail solo aparece tras recrear el proceso. Esperar 1 hora sin reiniciar conserva la misma clave hasta que caduca; entonces KMS falla hasta el siguiente start.
 
-- `access_key + secret_key + session_token` permite usar una sesión STS pre-generada, pero Vault no puede renovarla automáticamente.
-- `role_arn + web_identity_token_file` evita que una credencial AWS base gane la precedencia y permite renovación automática mediante OIDC.
-- Para este webinar, usa el notebook AssumeRole como prueba de compatibilidad y los notebooks Web Identity/OIDC como implementación funcional.
+`awskms/v3` y `awskms/v4` (`awsutil/v2`, AWS SDK for Go v2) componen el role sobre el profile fuente. La rama principal de Vault ya usa esa generación; 2.1.0 aún no. Comprueba el `go.mod` de cada release nueva.
 
-Referencias de implementación:
+Para credenciales que se renueven solas en 2.1.0, usa Web Identity/OIDC. Una sesión STS pre-generada (`AWS_SESSION_TOKEN`) tampoco se renueva.
 
-- [Cadena antigua de credenciales en awsutil v0.3.0](https://github.com/hashicorp/go-secure-stdlib/blob/awsutil/v0.3.0/awsutil/generate_credentials.go)
+Referencias:
+
+- [Cadena de credenciales en awsutil v0.3.0](https://github.com/hashicorp/go-secure-stdlib/blob/awsutil/v0.3.0/awsutil/generate_credentials.go)
 - [Migración del wrapper AWS KMS al AWS SDK for Go v2](https://github.com/hashicorp/go-kms-wrapping/commit/b50482337401006ca30a211370c57ee4e1ee2540)
-- [Opciones actuales del wrapper AWS KMS](https://github.com/hashicorp/go-kms-wrapping/blob/d4ca45ec7310b5efea9a72993046cf896ff69550/wrappers/awskms/options.go#L50)
-- [Configuración oficial del seal AWS KMS](https://developer.hashicorp.com/vault/docs/configuration/seal/awskms)
+- [Opciones del wrapper AWS KMS](https://github.com/hashicorp/go-kms-wrapping/blob/d4ca45ec7310b5efea9a72993046cf896ff69550/wrappers/awskms/options.go#L50)
+- [Seal AWS KMS](https://developer.hashicorp.com/vault/docs/configuration/seal/awskms)
 
 
 ## Archivos auxiliares
