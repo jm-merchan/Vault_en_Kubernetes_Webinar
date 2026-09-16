@@ -1,0 +1,88 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: transit-apps
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: transit-python
+  namespace: transit-apps
+  labels:
+    app: transit-python
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: transit-python
+  template:
+    metadata:
+      labels:
+        app: transit-python
+    spec:
+      containers:
+        - name: app
+          image: transit-python:demo
+          imagePullPolicy: Never
+          env:
+            - name: VAULT_ADDR
+              value: https://vault.vault.svc.cluster.local:8200
+            - name: VAULT_CACERT
+              value: /certs/ca.pem
+            - name: VAULT_CLIENT_CERT
+              value: /certs/client.pem
+            - name: VAULT_CLIENT_KEY
+              value: /certs/client-key.pem
+            - name: VAULT_CERT_NAME
+              value: transit
+            - name: LOOP_INTERVAL
+              value: "20"
+          volumeMounts:
+            - name: tls
+              mountPath: /certs
+              readOnly: true
+      volumes:
+        - name: tls
+          secret:
+            secretName: vault-tls
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: transit-java
+  namespace: transit-apps
+  labels:
+    app: transit-java
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: transit-java
+  template:
+    metadata:
+      labels:
+        app: transit-java
+    spec:
+      containers:
+        - name: app
+          image: transit-java:demo
+          imagePullPolicy: Never
+          env:
+            - name: VAULT_ADDR
+              value: https://vault.vault.svc.cluster.local:8200
+            - name: VAULT_CACERT
+              value: /certs/ca.pem
+            - name: VAULT_CLIENT_CERT
+              value: /certs/client.pem
+            - name: VAULT_CLIENT_KEY
+              value: /certs/client-key.pem
+            - name: LOOP_INTERVAL_MS
+              value: "20000"
+          volumeMounts:
+            - name: tls
+              mountPath: /certs
+              readOnly: true
+      volumes:
+        - name: tls
+          secret:
+            secretName: vault-tls
