@@ -11,6 +11,7 @@ Este repositorio contiene notebooks prácticos para desplegar HashiCorp Vault en
 - jq
 - Jupyter Notebook / VS Code Notebooks
 - Python 3.10+ con ipykernel
+- JDK 17+ y Maven (opcional; demo Java local del notebook Transit)
 
 ## Inicio rápido
 
@@ -78,7 +79,13 @@ cd Vault_on_Kubernetes_Webinar
 - Casos empresariales: secretos estáticos complejos, credenciales, formatos específicos, etc.
 
 14. `10_Transit.ipynb`
-- Transit engine: cifrado/descifrado, curl y batch operations.
+- Transit engine: cifrado/descifrado (CLI y curl), batch de 1000 operaciones, rotación de clave, rewrap y decrypt de ciphertexts `vault:vN:` de distintas versiones en un solo `batch_input`.
+- Integridad AES-GCM: batch decrypt con ciphertext manipulado (versión inexistente y un carácter del payload); los ítems válidos siguen descifrando.
+- Auth TLS (`cert`) con **batch token** (`hvb.…`, TTL 1m, `renewable=false`). El certificado de cliente lo emite `pki_int` del notebook 2.
+- Cliente Python con [`hvac`](https://python-hvac.org/): guarda `auth.lease_duration` y se reautentica con el certificado antes de que expire el TTL.
+- Cliente Java con [Spring Cloud Vault](https://docs.spring.io/spring-cloud-vault/reference/index.html) (`CERT`, `httpclient5`, keystore PKCS12). `LifecycleAwareSessionManager` solo hace `renew-self` si el token es renovable; con batch token esta demo re-loguea tras un **403**.
+- Apps long-lived en Kubernetes (`transit-apps/`): imágenes `transit-python:demo` / `transit-java:demo` en el namespace `transit-apps`. En logs, un nuevo `LOGIN` / `NEW TOKEN` ~1 minuto después confirma la rotación.
+- Celda de cleanup: namespace, imágenes, Transit, cert auth y policy. No toca el cluster de Vault ni el PKI.
 
 15. `11_vault_pr.ipynb`
 - Configuración de Performance Replication (PR).
@@ -188,12 +195,13 @@ Referencias:
 
 - `postgres.yaml`, `mongodb_deploy.yaml`, `openldap_deployment.yml`: manifiestos de soporte.
 - `local-pv.yaml`, `pv-claim.yaml`: almacenamiento persistente local.
-- `batch_input.json`, `batch_output.json`, `batch_decrypt_input.json`, `batch_decrypt_output.json`: pruebas para Transit batch.
-- `ciphertext.txt`: ejemplo de salida de cifrado.
+- `transit-apps/`: apps Python (`hvac`) y Java (Spring Cloud Vault) más `k8s.yaml` del laboratorio Transit.
+- `batch_*.json`, `tamper_*.json`, `ciphertext.txt`: se generan al ejecutar `10_Transit.ipynb` (están en `.gitignore`).
 
 ## Consejos de ejecución
 
 - Ejecuta los notebooks en orden para evitar fallos por dependencias entre laboratorios.
+- `10_Transit.ipynb` necesita `pki_int` del notebook 2 para emitir el certificado de cliente TLS.
 - Si cambias de kernel y aparece error de ipykernel, reinstálalo en el intérprete activo.
 - Evita guardar tokens reales en notebooks (GitHub Push Protection bloquea commits con secretos).
 
@@ -204,6 +212,8 @@ Referencias:
 - VSO: https://developer.hashicorp.com/vault/docs/platform/k8s/vso
 - CSI Provider: https://developer.hashicorp.com/vault/docs/platform/k8s/csi
 - Agent Injector: https://developer.hashicorp.com/vault/docs/platform/k8s/injector
+- Transit: https://developer.hashicorp.com/vault/docs/secrets/transit
+- Batch tokens: https://developer.hashicorp.com/vault/docs/concepts/tokens#batch-tokens
 - cert-manager: https://cert-manager.io/docs/
 
 ## Licencia
