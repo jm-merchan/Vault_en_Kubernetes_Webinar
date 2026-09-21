@@ -20,7 +20,7 @@ if [ ! -f "$HCL" ]; then
   exit 1
 fi
 
-ENC_ITEMS=$(grep -c 'plaintext =' "$HCL" || true)
+ENC_ITEMS=$(awk '/test "transit_encrypt"/ {p=1} /test "transit_decrypt"/ {p=0} p && /plaintext =/ {c++} END {print c+0}' "$HCL")
 [ "${ENC_ITEMS}" -gt 0 ] || ENC_ITEMS=1
 DEC_ITEMS=1
 
