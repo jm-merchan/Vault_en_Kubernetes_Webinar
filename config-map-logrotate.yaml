@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: logrotate-config
+  namespace: vault
+data:
+  logrotate.conf: |
+    # Audit file sink(s) under the audit PVC. copytruncate is intentionally
+    # omitted: postrotate sends SIGHUP so Vault reopens the sink on a new inode.
+    # Pattern covers the default vault.log and demo/benchmark JSON sinks.
+    /vault/audit/*.log
+    /vault/audit/*.json {
+        rotate 7
+        size 100M
+        missingok
+        notifempty
+        compress
+        delaycompress
+        sharedscripts
+        postrotate
+            pkill -HUP vault || true
+        endscript
+    }
