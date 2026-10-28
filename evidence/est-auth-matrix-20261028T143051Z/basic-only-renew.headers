@@ -1,0 +1,7 @@
+HTTP/2 400 
+cache-control: no-store
+content-type: text/plain; charset=utf-8
+strict-transport-security: max-age=31536000; includeSubDomains
+content-length: 33
+date: Wed, 28 Oct 2026 14:31:11 GMT
+

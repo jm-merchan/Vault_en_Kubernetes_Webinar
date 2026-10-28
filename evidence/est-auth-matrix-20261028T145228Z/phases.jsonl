@@ -1,0 +1,100 @@
+{
+  "phase": "before",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 25,
+    "entity_clients": 25,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-enroll-01",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 26,
+    "entity_clients": 26,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-enroll-02",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 26,
+    "entity_clients": 26,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-enroll-03",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 26,
+    "entity_clients": 26,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-renew1-01",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 27,
+    "entity_clients": 27,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-renew1-02",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 28,
+    "entity_clients": 28,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-renew1-03",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 29,
+    "entity_clients": 29,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-renew2-01",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 29,
+    "entity_clients": 29,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-renew2-02",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 29,
+    "entity_clients": 29,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "lifecycle-renew2-03",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 29,
+    "entity_clients": 29,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}

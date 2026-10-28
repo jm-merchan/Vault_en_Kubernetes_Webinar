@@ -1,0 +1,150 @@
+{
+  "phase": "baseline",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 29,
+    "entity_clients": 29,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "after-bootstrap",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 29,
+    "entity_clients": 29,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-first-01",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 30,
+    "entity_clients": 30,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-first-02",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 31,
+    "entity_clients": 31,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-first-03",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "after-enroll",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-renew1-01",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-renew1-02",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-renew1-03",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "after-renew",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-renew2-01",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-renew2-02",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "cert-renew2-03",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "after-renew2",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "after-controls",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 32,
+    "entity_clients": 32,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}

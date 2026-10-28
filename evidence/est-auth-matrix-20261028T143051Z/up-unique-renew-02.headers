@@ -1,0 +1,8 @@
+HTTP/2 200 
+cache-control: no-store
+content-transfer-encoding: base64
+content-type: application/pkcs7-mime; smime-type=certs-only
+strict-transport-security: max-age=31536000; includeSubDomains
+content-length: 1294
+date: Wed, 28 Oct 2026 14:31:00 GMT
+

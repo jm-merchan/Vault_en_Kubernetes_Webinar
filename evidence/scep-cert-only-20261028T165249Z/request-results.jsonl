@@ -1,0 +1,287 @@
+{
+  "step": "cert-first-01",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-01.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-01.scep-cli.example.test",
+    "transaction_id": "9ff83ea1e394efc3e5eb641684e054fdf0386461a743a68776ee60ff614d53eb"
+  },
+  "result": {
+    "common_name": "device-01.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "7333D7D9AA43BBC44432873D89493217CE732952",
+    "sha256": "536368374b75bfe23ca49c9aa32fe9fd352e1a8fa7fa935ee397d6b7fd0daf8c",
+    "signature_verified": true,
+    "transaction_id": "9ff83ea1e394efc3e5eb641684e054fdf0386461a743a68776ee60ff614d53eb"
+  },
+  "signer_reference": "bootstrap-01",
+  "signer_serial": "4A91D52A9FB1E46BB2434CE57ECE8375C2F89253",
+  "signer_sha256": "69905babbdde54fbaffce14a02c75ffcbf8ec60629e4fe596351f0bc119ed69f",
+  "signer_public_key_sha256": "4456917c7792513aa7313650ce602da5c6d240b5264a1d22d1ca6d0fbbc039ce",
+  "csr_public_key_sha256": "29ced887813878958a2f1e4b8f49d6ce43a6d71ffd9de2c7a8407b430378fbce"
+}
+{
+  "step": "cert-first-02",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-02.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-02.scep-cli.example.test",
+    "transaction_id": "34a8389c4dee90325b69e7f8b95caf2a01d1b92a9e99e5dd90dd1da66f86f811"
+  },
+  "result": {
+    "common_name": "device-02.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "3176E66E6D7D03C0671EDBCC6108058565F5576D",
+    "sha256": "a9140a89814aee263d9638ee62562a41ec143cbeca21491981e4b1189ae3f6c9",
+    "signature_verified": true,
+    "transaction_id": "34a8389c4dee90325b69e7f8b95caf2a01d1b92a9e99e5dd90dd1da66f86f811"
+  },
+  "signer_reference": "bootstrap-02",
+  "signer_serial": "17419C68E9050A9A01729150E6740EECAF906441",
+  "signer_sha256": "694fe347e41273e918797cd928733864e15efd741aa26687f3824b09bb59c01b",
+  "signer_public_key_sha256": "6c4ed4034f0ce5d1b00374eee0953813fac068d0aaee549bea390a470a4b48da",
+  "csr_public_key_sha256": "7b2a2678d4c043ef330a3f43965e4185e8dd3d4e1770764a7ba9103f820b3167"
+}
+{
+  "step": "cert-first-03",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-03.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-03.scep-cli.example.test",
+    "transaction_id": "716130c86ce88b373a0213bd497ddb5b6a6701d2abc6dec3a84e0aba2d07f1f4"
+  },
+  "result": {
+    "common_name": "device-03.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "7EDB8AC1041074BDEC1BA474461FCF9E4BB0E176",
+    "sha256": "bad0a92d3569da8aab5efa9f3515c7ddd322f52d86683d401ae90b18eb746ee9",
+    "signature_verified": true,
+    "transaction_id": "716130c86ce88b373a0213bd497ddb5b6a6701d2abc6dec3a84e0aba2d07f1f4"
+  },
+  "signer_reference": "bootstrap-03",
+  "signer_serial": "4873AB530A4A464386EBACA9B934DB6828446EA2",
+  "signer_sha256": "e7e499bcde98929e2a89f6f499da69d42db1dda0bd0c2ef2ac136fb5aa8eabb8",
+  "signer_public_key_sha256": "6351509a7d4ddc2e4c526274a1106de172efacee09f84ffd57f2487cf17fcfb0",
+  "csr_public_key_sha256": "86c8fa4f2ec0ad70e01fe9c6002f86737a8d6ac7fd741f62c805c9a5c92f644e"
+}
+{
+  "step": "cert-renew1-01",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-01.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-01.scep-cli.example.test",
+    "transaction_id": "023465173f04d10a8df2b37f43053bd8af7b786031d399a0818a3bbd6ff0da03"
+  },
+  "result": {
+    "common_name": "device-01.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "1BAE80C002415610544DDF4858B0771385D4220D",
+    "sha256": "5540db7374dd0c3e5791c6e8c0473c1fb214cfb4b0a16bb03a8df84b18e276a6",
+    "signature_verified": true,
+    "transaction_id": "023465173f04d10a8df2b37f43053bd8af7b786031d399a0818a3bbd6ff0da03"
+  },
+  "signer_reference": "cert-first-01",
+  "signer_serial": "7333D7D9AA43BBC44432873D89493217CE732952",
+  "signer_sha256": "536368374b75bfe23ca49c9aa32fe9fd352e1a8fa7fa935ee397d6b7fd0daf8c",
+  "signer_public_key_sha256": "29ced887813878958a2f1e4b8f49d6ce43a6d71ffd9de2c7a8407b430378fbce",
+  "csr_public_key_sha256": "63dde65294fc8fae6fd3bc01b7d9674638edc3f5f241a833675abbf0adef2b6d"
+}
+{
+  "step": "cert-renew1-02",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-02.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-02.scep-cli.example.test",
+    "transaction_id": "77b6e22c0bb3d435e23e9ed3da20eb499577870345c537266a678dec683f03d9"
+  },
+  "result": {
+    "common_name": "device-02.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "252865343D0A9FB29C0125AA33EAB549F5B84697",
+    "sha256": "7d62ccc32c4a3406fc09d54e9e2a9d9a26a908c9b7a8e8fce9092e7c13e8c0a8",
+    "signature_verified": true,
+    "transaction_id": "77b6e22c0bb3d435e23e9ed3da20eb499577870345c537266a678dec683f03d9"
+  },
+  "signer_reference": "cert-first-02",
+  "signer_serial": "3176E66E6D7D03C0671EDBCC6108058565F5576D",
+  "signer_sha256": "a9140a89814aee263d9638ee62562a41ec143cbeca21491981e4b1189ae3f6c9",
+  "signer_public_key_sha256": "7b2a2678d4c043ef330a3f43965e4185e8dd3d4e1770764a7ba9103f820b3167",
+  "csr_public_key_sha256": "7f2647fea2cb0ae006d93b13cb80312d9125a74337c5c7d526cbf037ffdf3d07"
+}
+{
+  "step": "cert-renew1-03",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-03.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-03.scep-cli.example.test",
+    "transaction_id": "297a6d6f85b18708e7a2cb10e75baf59a872120ac77868a67a79ecbb624787a6"
+  },
+  "result": {
+    "common_name": "device-03.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "1C773FC092F7287DFF78967606F48E4ADDF78FA6",
+    "sha256": "c6a8e38963aec8d0fc2bc64a797faa39aeb0db26b19bcd07d468467f274c2440",
+    "signature_verified": true,
+    "transaction_id": "297a6d6f85b18708e7a2cb10e75baf59a872120ac77868a67a79ecbb624787a6"
+  },
+  "signer_reference": "cert-first-03",
+  "signer_serial": "7EDB8AC1041074BDEC1BA474461FCF9E4BB0E176",
+  "signer_sha256": "bad0a92d3569da8aab5efa9f3515c7ddd322f52d86683d401ae90b18eb746ee9",
+  "signer_public_key_sha256": "86c8fa4f2ec0ad70e01fe9c6002f86737a8d6ac7fd741f62c805c9a5c92f644e",
+  "csr_public_key_sha256": "eedd7ee928e452998dc0a64b825c41cc0b8ebcc2d2c1e970b36ad47aaa5a6ccd"
+}
+{
+  "step": "cert-renew2-01",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-01.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-01.scep-cli.example.test",
+    "transaction_id": "6499b4dc4e64459ebb47fd757d71379e5304adad24e2b36f43d41cf92010c37d"
+  },
+  "result": {
+    "common_name": "device-01.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "67F69B39E1DAA9E1FB1E3EBE3CE084FCC9C391F2",
+    "sha256": "63ad96d4fda696cb450d4c1aa649ea9a948c620d960798d1011ee612a5fb157c",
+    "signature_verified": true,
+    "transaction_id": "6499b4dc4e64459ebb47fd757d71379e5304adad24e2b36f43d41cf92010c37d"
+  },
+  "signer_reference": "cert-renew1-01",
+  "signer_serial": "1BAE80C002415610544DDF4858B0771385D4220D",
+  "signer_sha256": "5540db7374dd0c3e5791c6e8c0473c1fb214cfb4b0a16bb03a8df84b18e276a6",
+  "signer_public_key_sha256": "63dde65294fc8fae6fd3bc01b7d9674638edc3f5f241a833675abbf0adef2b6d",
+  "csr_public_key_sha256": "a81d77bd7e35770ee342496bd4123edd5aee51ab599fe33b659b52c9a0e11786"
+}
+{
+  "step": "cert-renew2-02",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-02.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-02.scep-cli.example.test",
+    "transaction_id": "2a37795455525f1f0677107bcc59acac32fd1e8e76ba62d055de91cac9392884"
+  },
+  "result": {
+    "common_name": "device-02.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "52451DACE9025B25E69EEB84E55A76AF45811265",
+    "sha256": "24801dbd255d44f1aa542f3466c5c49564000a5f210b16cea93907ae6e28637f",
+    "signature_verified": true,
+    "transaction_id": "2a37795455525f1f0677107bcc59acac32fd1e8e76ba62d055de91cac9392884"
+  },
+  "signer_reference": "cert-renew1-02",
+  "signer_serial": "252865343D0A9FB29C0125AA33EAB549F5B84697",
+  "signer_sha256": "7d62ccc32c4a3406fc09d54e9e2a9d9a26a908c9b7a8e8fce9092e7c13e8c0a8",
+  "signer_public_key_sha256": "7f2647fea2cb0ae006d93b13cb80312d9125a74337c5c7d526cbf037ffdf3d07",
+  "csr_public_key_sha256": "9f900f59bf0f8a15f76a9a5a2433d98bcbeb560ecff9b5967de80b5f51cac6c7"
+}
+{
+  "step": "cert-renew2-03",
+  "expected_auth": "cert",
+  "expected_result": "success",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-03.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-03.scep-cli.example.test",
+    "transaction_id": "8b2a8ea3ea7d697069ffd7272e74f222b682ec75a53feb609133edec3588148e"
+  },
+  "result": {
+    "common_name": "device-03.scep-cli.example.test",
+    "nonce_verified": true,
+    "pki_status": "0",
+    "serial": "63C8C1FB3D4F71DBB8237847EED7F07561979620",
+    "sha256": "3f8c3cd1dc56939d5df07de926164e17fe5c957b136dbd4d383c2bf4b2138e24",
+    "signature_verified": true,
+    "transaction_id": "8b2a8ea3ea7d697069ffd7272e74f222b682ec75a53feb609133edec3588148e"
+  },
+  "signer_reference": "cert-renew1-03",
+  "signer_serial": "1C773FC092F7287DFF78967606F48E4ADDF78FA6",
+  "signer_sha256": "c6a8e38963aec8d0fc2bc64a797faa39aeb0db26b19bcd07d468467f274c2440",
+  "signer_public_key_sha256": "eedd7ee928e452998dc0a64b825c41cc0b8ebcc2d2c1e970b36ad47aaa5a6ccd",
+  "csr_public_key_sha256": "ec0085eff05f99f4e0b033effcb154bef4d59c0e3f41f9abfbca47821d6fd0c5"
+}
+{
+  "step": "untrusted-cert",
+  "expected_auth": "cert",
+  "expected_result": "failure",
+  "http_status": 200,
+  "request": {
+    "challenge_present": false,
+    "csr_cn": "device-01.scep-cli.example.test",
+    "digest": "SHA-256",
+    "encryption": "AES-256-CBC",
+    "message_type": "17",
+    "signer_cn": "device-01.scep-cli.example.test",
+    "transaction_id": "06b5adb48d9af5867c56b2568551d3f1a43b992dd03156cff9e9f9bc6965053d"
+  },
+  "result": {
+    "fail_info": "2",
+    "pki_status": "2",
+    "signature_verified": true,
+    "transaction_id": "06b5adb48d9af5867c56b2568551d3f1a43b992dd03156cff9e9f9bc6965053d"
+  },
+  "signer_reference": "untrusted-cert-self",
+  "signer_serial": "1B7BC31C4DA61DA0FAF8373DAA980CDD60FC1B53",
+  "signer_sha256": "9e75f32524cafe4e20c68e10a046361438a47f72a887b05527eac5cf5430e69b",
+  "signer_public_key_sha256": "e5eed0d22be726f13e6fa08dcd38bc7dc977d184ccc2923e2dd373fb04654b91",
+  "csr_public_key_sha256": "e5eed0d22be726f13e6fa08dcd38bc7dc977d184ccc2923e2dd373fb04654b91"
+}

@@ -39,8 +39,15 @@ cd Vault_on_Kubernetes_Webinar
 2. `2_Database_Secret_Engine.ipynb`
 - Credenciales dinámicas para PostgreSQL.
 
-3. `2_PKI.ipynb`
-- PKI root/intermedia, roles y emisión de certificados.
+3. `2_PKI_API_EST.ipynb`
+- PKI root/intermedia, roles, emisión por API y laboratorio EST con HTTP Basic, autenticación TLS, labels y proxy.
+- La revisión ejecutada y sus límites están documentados en `PKI_EST_SCEP_Validation_Report.md`; el notebook original se conserva sin modificar.
+
+3b. `EST_Auth_Matrix_Validation.ipynb`
+- Matriz real de 41 peticiones EST: enroll/reenroll con userpass compartido o individual, certificado compartido o propio, combinación Basic + certificado y controles negativos. Bash/curl/OpenSSL/jq, sin instalar nada.
+- [Resultados y límites](PKI_EST_SCEP_Validation_Report.md#est-authentication-matrix-enrollment-and-re-enrollment): usuario compartido → una entidad; bootstrap con cert compartido → una entidad en altas; reenroll correcto con el certificado emitido a cada equipo → tres identidades adicionales, estables en las siguientes renovaciones. El rechazo usando el bootstrap en reenroll es solo un control negativo.
+- Repetir: `bash scripts/test_est_auth_matrix.sh`. Cada ejecución añade uso histórico aunque limpie sus recursos. El notebook consulta la evidencia por defecto; ejecutar de nuevo requiere activar su celda de prueba.
+- Repetición del ciclo correcto, sin Basic ni controles negativos: `bash scripts/test_est_auth_matrix.sh --cert-lifecycle`. Tres altas con bootstrap compartido → tres reenroll con los certificados emitidos → otros tres reenroll con los renovados. Resultado: 9/9 HTTP 200; incrementos de clientes +1, +3, +0. Ver [evidencia de la repetición](PKI_EST_SCEP_Validation_Report.md#correct-est-certificate-lifecycle-focused-repeat).
 
 4. `2b_LDAP_Authentication.ipynb`
 - Autenticación LDAP.
@@ -72,6 +79,16 @@ cd Vault_on_Kubernetes_Webinar
 
 12. `8_ACME.ipynb`
 - Flujo ACME con Vault (incluye ejemplo con Caddy).
+
+12b. `SCEP_Intune_Validation.ipynb`
+- Laboratorio independiente de Vault PKI SCEP con validación externa Microsoft Intune, batch tokens, GetCACerts, auditoría y contadores de Clients/PKI Only.
+- Las pruebas de dispositivos requieren credenciales, perfiles y dispositivos Intune reales; no sustituye Intune por `static-challenge`.
+
+12c. `SCEP_CLI_Validation.ipynb`
+- Validación SCEP sin Intune con challenge compartido y renovación sin challenge mediante `cert` auth. Bash, OpenSSL, curl y jq; un auxiliar Go prepara/verifica PKCS#7.
+- Ejecutar: `bash scripts/test_scep_shared_credential.sh`. Tres altas generaron tres clientes. Renovar con challenge añadió cero; pasar los tres equipos a un mount `cert` separado añadió tres entidades; repetir la renovación con `cert` añadió cero. Incluye controles negativos y prueba del autenticador utilizado en auditoría. Ver [informe](PKI_EST_SCEP_Validation_Report.md#scep-cert-auth-renewal-without-challenge).
+- Para ejecutar solo el baseline de challenge: `SCEP_TEST_CERT_AUTH=false bash scripts/test_scep_shared_credential.sh`. Cada ejecución crea y elimina sus recursos aislados, pero conserva el uso histórico.
+- Caso añadido: `bash scripts/test_scep_shared_credential.sh --cert-only`. Tres certificados individuales preaprovisionados por API, sin challenge desde la primera petición SCEP, seguidos de dos rondas de renovación: **+3, +0, +0 clientes**. Las nueve peticiones fueron `RenewalReq`, firmadas con el certificado anterior de cada equipo; un firmante no confiable fue rechazado. La ejecución añadió 13 certificados (CA, tres previos y nueve SCEP). Ver [resultado y tabla EST/SCEP](PKI_EST_SCEP_Validation_Report.md#scep-cert-only-from-the-first-request). El notebook permite consultar la evidencia sin repetir emisiones; la compilación Go usa solo dependencias ya presentes, sin instalar nada.
 
 ### 5) Casos avanzados
 

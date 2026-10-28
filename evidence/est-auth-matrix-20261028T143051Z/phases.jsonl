@@ -1,0 +1,130 @@
+{
+  "phase": "before",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 17,
+    "entity_clients": 17,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "shared-user-enroll",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 18,
+    "entity_clients": 18,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "shared-user-renew",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 18,
+    "entity_clients": 18,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "unique-user-enroll",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 21,
+    "entity_clients": 21,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "unique-user-renew",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 21,
+    "entity_clients": 21,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "shared-cert-enroll",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 22,
+    "entity_clients": 22,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "shared-cert-device-renew",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 22,
+    "entity_clients": 22,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "own-cert-transition",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 25,
+    "entity_clients": 25,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "own-cert-enroll",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 25,
+    "entity_clients": 25,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "own-cert-renew",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 25,
+    "entity_clients": 25,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "shared-auth-rotation",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 25,
+    "entity_clients": 25,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "combined-auth",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 25,
+    "entity_clients": 25,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
+{
+  "phase": "after-controls",
+  "clients": {
+    "acme_clients": 0,
+    "clients": 25,
+    "entity_clients": 25,
+    "non_entity_clients": 0,
+    "secret_syncs": 0
+  }
+}
