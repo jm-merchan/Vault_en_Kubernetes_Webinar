@@ -18,6 +18,7 @@ data:
         delaycompress
         sharedscripts
         postrotate
-            pkill -HUP vault || true
+            # Match only Vault; the broader pattern also kills vault-logrotate.
+            pkill -HUP -x vault || true
         endscript
     }

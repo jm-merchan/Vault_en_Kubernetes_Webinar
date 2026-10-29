@@ -1,0 +1,11 @@
+2026-10-29T10:17:34.086Z [INFO]  core: enabled audit backend: path=vbb/ type=file
+2026-10-29T10:17:34.090Z [ERROR] core: failed to audit request: path=sys/metrics
+  error=
+  | event not processed by enough 'sink' nodes
+  | failed to persist salt: cannot write to readonly storage
+  
+2026-10-29T10:17:34.090Z [ERROR] core: failed to audit response: request_path=sys/metrics
+  error=
+  | event not processed by enough 'sink' nodes
+  | failed to persist salt: cannot write to readonly storage
+  

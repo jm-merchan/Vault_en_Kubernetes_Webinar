@@ -1,0 +1,1081 @@
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Creating stub state file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json does not exist -- skipping
+Creating new state
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json does not exist -- skipping
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json does not exist -- skipping
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:42
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:42
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:00
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:00
+  log needs rotating
+rotating log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json, log->rotateCount is 99
+dateext suffix '-20261029'
+glob pattern '-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
+previous log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1 does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.100.gz (rotatecount 99, logstart 1, i 99), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz (rotatecount 99, logstart 1, i 98), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz (rotatecount 99, logstart 1, i 97), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz (rotatecount 99, logstart 1, i 96), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz (rotatecount 99, logstart 1, i 95), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz (rotatecount 99, logstart 1, i 94), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz (rotatecount 99, logstart 1, i 93), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz (rotatecount 99, logstart 1, i 92), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz (rotatecount 99, logstart 1, i 91), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz (rotatecount 99, logstart 1, i 90), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz (rotatecount 99, logstart 1, i 89), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz (rotatecount 99, logstart 1, i 88), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz (rotatecount 99, logstart 1, i 87), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz (rotatecount 99, logstart 1, i 86), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz (rotatecount 99, logstart 1, i 85), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz (rotatecount 99, logstart 1, i 84), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz (rotatecount 99, logstart 1, i 83), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz (rotatecount 99, logstart 1, i 82), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz (rotatecount 99, logstart 1, i 81), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz (rotatecount 99, logstart 1, i 80), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz (rotatecount 99, logstart 1, i 79), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz (rotatecount 99, logstart 1, i 78), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz (rotatecount 99, logstart 1, i 77), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz (rotatecount 99, logstart 1, i 76), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz (rotatecount 99, logstart 1, i 75), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz (rotatecount 99, logstart 1, i 74), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz (rotatecount 99, logstart 1, i 73), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz (rotatecount 99, logstart 1, i 72), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz (rotatecount 99, logstart 1, i 71), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz (rotatecount 99, logstart 1, i 70), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz (rotatecount 99, logstart 1, i 69), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz (rotatecount 99, logstart 1, i 68), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz (rotatecount 99, logstart 1, i 67), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz (rotatecount 99, logstart 1, i 66), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz (rotatecount 99, logstart 1, i 65), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz (rotatecount 99, logstart 1, i 64), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz (rotatecount 99, logstart 1, i 63), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz (rotatecount 99, logstart 1, i 62), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz (rotatecount 99, logstart 1, i 61), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz (rotatecount 99, logstart 1, i 60), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz (rotatecount 99, logstart 1, i 59), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz (rotatecount 99, logstart 1, i 58), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz (rotatecount 99, logstart 1, i 57), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz (rotatecount 99, logstart 1, i 56), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz (rotatecount 99, logstart 1, i 55), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz (rotatecount 99, logstart 1, i 54), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz (rotatecount 99, logstart 1, i 53), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz (rotatecount 99, logstart 1, i 52), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz (rotatecount 99, logstart 1, i 51), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz (rotatecount 99, logstart 1, i 50), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz (rotatecount 99, logstart 1, i 49), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz (rotatecount 99, logstart 1, i 48), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz (rotatecount 99, logstart 1, i 47), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz (rotatecount 99, logstart 1, i 46), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz (rotatecount 99, logstart 1, i 45), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz (rotatecount 99, logstart 1, i 44), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz (rotatecount 99, logstart 1, i 43), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz (rotatecount 99, logstart 1, i 42), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz (rotatecount 99, logstart 1, i 41), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz (rotatecount 99, logstart 1, i 40), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz (rotatecount 99, logstart 1, i 39), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz (rotatecount 99, logstart 1, i 38), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz (rotatecount 99, logstart 1, i 37), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz (rotatecount 99, logstart 1, i 36), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz (rotatecount 99, logstart 1, i 35), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz (rotatecount 99, logstart 1, i 34), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz (rotatecount 99, logstart 1, i 33), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz (rotatecount 99, logstart 1, i 32), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz (rotatecount 99, logstart 1, i 31), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz (rotatecount 99, logstart 1, i 30), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz (rotatecount 99, logstart 1, i 29), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz (rotatecount 99, logstart 1, i 28), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz (rotatecount 99, logstart 1, i 27), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz (rotatecount 99, logstart 1, i 26), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz (rotatecount 99, logstart 1, i 25), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz (rotatecount 99, logstart 1, i 24), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz (rotatecount 99, logstart 1, i 23), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz (rotatecount 99, logstart 1, i 22), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz (rotatecount 99, logstart 1, i 21), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz (rotatecount 99, logstart 1, i 20), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz (rotatecount 99, logstart 1, i 19), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz (rotatecount 99, logstart 1, i 18), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz (rotatecount 99, logstart 1, i 17), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz (rotatecount 99, logstart 1, i 16), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz (rotatecount 99, logstart 1, i 15), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz (rotatecount 99, logstart 1, i 14), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz (rotatecount 99, logstart 1, i 13), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz (rotatecount 99, logstart 1, i 12), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz (rotatecount 99, logstart 1, i 11), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz (rotatecount 99, logstart 1, i 10), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz (rotatecount 99, logstart 1, i 9), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz (rotatecount 99, logstart 1, i 8), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz (rotatecount 99, logstart 1, i 7), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz (rotatecount 99, logstart 1, i 6), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz (rotatecount 99, logstart 1, i 5), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz (rotatecount 99, logstart 1, i 4), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz (rotatecount 99, logstart 1, i 3), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.2.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz (rotatecount 99, logstart 1, i 2), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.2.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.2.gz (rotatecount 99, logstart 1, i 1), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.0.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1.gz (rotatecount 99, logstart 1, i 0), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.0.gz does not exist
+log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.100.gz doesn't exist -- won't try to dispose of it
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1
+running postrotate script
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log needs rotating
+rotating log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json, log->rotateCount is 99
+dateext suffix '-20261029'
+glob pattern '-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
+compressing log with: /bin/gzip
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.100.gz (rotatecount 99, logstart 1, i 99), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz (rotatecount 99, logstart 1, i 98), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz (rotatecount 99, logstart 1, i 97), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz (rotatecount 99, logstart 1, i 96), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz (rotatecount 99, logstart 1, i 95), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz (rotatecount 99, logstart 1, i 94), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz (rotatecount 99, logstart 1, i 93), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz (rotatecount 99, logstart 1, i 92), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz (rotatecount 99, logstart 1, i 91), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz (rotatecount 99, logstart 1, i 90), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz (rotatecount 99, logstart 1, i 89), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz (rotatecount 99, logstart 1, i 88), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz (rotatecount 99, logstart 1, i 87), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz (rotatecount 99, logstart 1, i 86), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz (rotatecount 99, logstart 1, i 85), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz (rotatecount 99, logstart 1, i 84), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz (rotatecount 99, logstart 1, i 83), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz (rotatecount 99, logstart 1, i 82), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz (rotatecount 99, logstart 1, i 81), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz (rotatecount 99, logstart 1, i 80), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz (rotatecount 99, logstart 1, i 79), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz (rotatecount 99, logstart 1, i 78), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz (rotatecount 99, logstart 1, i 77), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz (rotatecount 99, logstart 1, i 76), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz (rotatecount 99, logstart 1, i 75), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz (rotatecount 99, logstart 1, i 74), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz (rotatecount 99, logstart 1, i 73), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz (rotatecount 99, logstart 1, i 72), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz (rotatecount 99, logstart 1, i 71), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz (rotatecount 99, logstart 1, i 70), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz (rotatecount 99, logstart 1, i 69), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz (rotatecount 99, logstart 1, i 68), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz (rotatecount 99, logstart 1, i 67), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz (rotatecount 99, logstart 1, i 66), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz (rotatecount 99, logstart 1, i 65), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz (rotatecount 99, logstart 1, i 64), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz (rotatecount 99, logstart 1, i 63), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz (rotatecount 99, logstart 1, i 62), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz (rotatecount 99, logstart 1, i 61), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz (rotatecount 99, logstart 1, i 60), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz (rotatecount 99, logstart 1, i 59), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz (rotatecount 99, logstart 1, i 58), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz (rotatecount 99, logstart 1, i 57), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz (rotatecount 99, logstart 1, i 56), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz (rotatecount 99, logstart 1, i 55), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz (rotatecount 99, logstart 1, i 54), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz (rotatecount 99, logstart 1, i 53), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz (rotatecount 99, logstart 1, i 52), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz (rotatecount 99, logstart 1, i 51), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz (rotatecount 99, logstart 1, i 50), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz (rotatecount 99, logstart 1, i 49), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz (rotatecount 99, logstart 1, i 48), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz (rotatecount 99, logstart 1, i 47), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz (rotatecount 99, logstart 1, i 46), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz (rotatecount 99, logstart 1, i 45), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz (rotatecount 99, logstart 1, i 44), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz (rotatecount 99, logstart 1, i 43), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz (rotatecount 99, logstart 1, i 42), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz (rotatecount 99, logstart 1, i 41), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz (rotatecount 99, logstart 1, i 40), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz (rotatecount 99, logstart 1, i 39), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz (rotatecount 99, logstart 1, i 38), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz (rotatecount 99, logstart 1, i 37), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz (rotatecount 99, logstart 1, i 36), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz (rotatecount 99, logstart 1, i 35), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz (rotatecount 99, logstart 1, i 34), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz (rotatecount 99, logstart 1, i 33), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz (rotatecount 99, logstart 1, i 32), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz (rotatecount 99, logstart 1, i 31), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz (rotatecount 99, logstart 1, i 30), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz (rotatecount 99, logstart 1, i 29), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz (rotatecount 99, logstart 1, i 28), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz (rotatecount 99, logstart 1, i 27), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz (rotatecount 99, logstart 1, i 26), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz (rotatecount 99, logstart 1, i 25), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz (rotatecount 99, logstart 1, i 24), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz (rotatecount 99, logstart 1, i 23), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz (rotatecount 99, logstart 1, i 22), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz (rotatecount 99, logstart 1, i 21), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz (rotatecount 99, logstart 1, i 20), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz (rotatecount 99, logstart 1, i 19), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz (rotatecount 99, logstart 1, i 18), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz (rotatecount 99, logstart 1, i 17), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz (rotatecount 99, logstart 1, i 16), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz (rotatecount 99, logstart 1, i 15), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz (rotatecount 99, logstart 1, i 14), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz (rotatecount 99, logstart 1, i 13), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz (rotatecount 99, logstart 1, i 12), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz (rotatecount 99, logstart 1, i 11), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz (rotatecount 99, logstart 1, i 10), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz (rotatecount 99, logstart 1, i 9), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz (rotatecount 99, logstart 1, i 8), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz (rotatecount 99, logstart 1, i 7), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz (rotatecount 99, logstart 1, i 6), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz (rotatecount 99, logstart 1, i 5), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz (rotatecount 99, logstart 1, i 4), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz (rotatecount 99, logstart 1, i 3), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.2.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz (rotatecount 99, logstart 1, i 2), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.2.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.2.gz (rotatecount 99, logstart 1, i 1), 
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.0.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1.gz (rotatecount 99, logstart 1, i 0), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.0.gz does not exist
+log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.100.gz doesn't exist -- won't try to dispose of it
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1
+running postrotate script
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:43
+  Last rotated at 2026-10-29 10:43
+  log needs rotating
+rotating log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json, log->rotateCount is 99
+dateext suffix '-20261029'
+glob pattern '-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
+compressing log with: /bin/gzip
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.100.gz (rotatecount 99, logstart 1, i 99), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.99.gz (rotatecount 99, logstart 1, i 98), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.98.gz (rotatecount 99, logstart 1, i 97), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.97.gz (rotatecount 99, logstart 1, i 96), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.96.gz (rotatecount 99, logstart 1, i 95), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.95.gz (rotatecount 99, logstart 1, i 94), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.94.gz (rotatecount 99, logstart 1, i 93), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.93.gz (rotatecount 99, logstart 1, i 92), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.92.gz (rotatecount 99, logstart 1, i 91), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.91.gz (rotatecount 99, logstart 1, i 90), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.90.gz (rotatecount 99, logstart 1, i 89), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.89.gz (rotatecount 99, logstart 1, i 88), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.88.gz (rotatecount 99, logstart 1, i 87), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.87.gz (rotatecount 99, logstart 1, i 86), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.86.gz (rotatecount 99, logstart 1, i 85), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.85.gz (rotatecount 99, logstart 1, i 84), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.84.gz (rotatecount 99, logstart 1, i 83), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.83.gz (rotatecount 99, logstart 1, i 82), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.82.gz (rotatecount 99, logstart 1, i 81), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.81.gz (rotatecount 99, logstart 1, i 80), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.80.gz (rotatecount 99, logstart 1, i 79), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.79.gz (rotatecount 99, logstart 1, i 78), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.78.gz (rotatecount 99, logstart 1, i 77), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.77.gz (rotatecount 99, logstart 1, i 76), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.76.gz (rotatecount 99, logstart 1, i 75), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.75.gz (rotatecount 99, logstart 1, i 74), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.74.gz (rotatecount 99, logstart 1, i 73), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.73.gz (rotatecount 99, logstart 1, i 72), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.72.gz (rotatecount 99, logstart 1, i 71), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.71.gz (rotatecount 99, logstart 1, i 70), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.70.gz (rotatecount 99, logstart 1, i 69), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.69.gz (rotatecount 99, logstart 1, i 68), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.68.gz (rotatecount 99, logstart 1, i 67), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.67.gz (rotatecount 99, logstart 1, i 66), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.66.gz (rotatecount 99, logstart 1, i 65), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.65.gz (rotatecount 99, logstart 1, i 64), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.64.gz (rotatecount 99, logstart 1, i 63), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.63.gz (rotatecount 99, logstart 1, i 62), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.62.gz (rotatecount 99, logstart 1, i 61), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.61.gz (rotatecount 99, logstart 1, i 60), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.60.gz (rotatecount 99, logstart 1, i 59), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.59.gz (rotatecount 99, logstart 1, i 58), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.58.gz (rotatecount 99, logstart 1, i 57), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.57.gz (rotatecount 99, logstart 1, i 56), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.56.gz (rotatecount 99, logstart 1, i 55), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.55.gz (rotatecount 99, logstart 1, i 54), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.54.gz (rotatecount 99, logstart 1, i 53), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.53.gz (rotatecount 99, logstart 1, i 52), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.52.gz (rotatecount 99, logstart 1, i 51), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.51.gz (rotatecount 99, logstart 1, i 50), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.50.gz (rotatecount 99, logstart 1, i 49), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.49.gz (rotatecount 99, logstart 1, i 48), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.48.gz (rotatecount 99, logstart 1, i 47), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.47.gz (rotatecount 99, logstart 1, i 46), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.46.gz (rotatecount 99, logstart 1, i 45), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.45.gz (rotatecount 99, logstart 1, i 44), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.44.gz (rotatecount 99, logstart 1, i 43), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.43.gz (rotatecount 99, logstart 1, i 42), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.42.gz (rotatecount 99, logstart 1, i 41), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.41.gz (rotatecount 99, logstart 1, i 40), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.40.gz (rotatecount 99, logstart 1, i 39), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.39.gz (rotatecount 99, logstart 1, i 38), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.38.gz (rotatecount 99, logstart 1, i 37), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.37.gz (rotatecount 99, logstart 1, i 36), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.36.gz (rotatecount 99, logstart 1, i 35), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.35.gz (rotatecount 99, logstart 1, i 34), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.34.gz (rotatecount 99, logstart 1, i 33), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.33.gz (rotatecount 99, logstart 1, i 32), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.32.gz (rotatecount 99, logstart 1, i 31), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.31.gz (rotatecount 99, logstart 1, i 30), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.30.gz (rotatecount 99, logstart 1, i 29), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.29.gz (rotatecount 99, logstart 1, i 28), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.28.gz (rotatecount 99, logstart 1, i 27), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.27.gz (rotatecount 99, logstart 1, i 26), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.26.gz (rotatecount 99, logstart 1, i 25), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.25.gz (rotatecount 99, logstart 1, i 24), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.24.gz (rotatecount 99, logstart 1, i 23), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.23.gz (rotatecount 99, logstart 1, i 22), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.22.gz (rotatecount 99, logstart 1, i 21), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.21.gz (rotatecount 99, logstart 1, i 20), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.20.gz (rotatecount 99, logstart 1, i 19), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.19.gz (rotatecount 99, logstart 1, i 18), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.18.gz (rotatecount 99, logstart 1, i 17), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.17.gz (rotatecount 99, logstart 1, i 16), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.16.gz (rotatecount 99, logstart 1, i 15), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.15.gz (rotatecount 99, logstart 1, i 14), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.14.gz (rotatecount 99, logstart 1, i 13), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.13.gz (rotatecount 99, logstart 1, i 12), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.12.gz (rotatecount 99, logstart 1, i 11), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.11.gz (rotatecount 99, logstart 1, i 10), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.10.gz (rotatecount 99, logstart 1, i 9), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.9.gz (rotatecount 99, logstart 1, i 8), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.8.gz (rotatecount 99, logstart 1, i 7), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.7.gz (rotatecount 99, logstart 1, i 6), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.6.gz (rotatecount 99, logstart 1, i 5), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.5.gz (rotatecount 99, logstart 1, i 4), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.4.gz (rotatecount 99, logstart 1, i 3), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz does not exist
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.2.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.3.gz (rotatecount 99, logstart 1, i 2), 
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.2.gz (rotatecount 99, logstart 1, i 1), 
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.0.gz to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1.gz (rotatecount 99, logstart 1, i 0), 
+old log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.0.gz does not exist
+log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.100.gz doesn't exist -- won't try to dispose of it
+renaming /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json to /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json.1
+running postrotate script
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:44
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:44
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:44
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:44
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:44
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
+reading config file /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/logrotate.conf
+Reading state from file: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/state
+Allocating hash table for state file, size 64 entries
+Creating new state
+
+Handling 1 logs
+
+rotating pattern: /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json  67108864 bytes (99 rotations)
+empty log files are not rotated, old logs are removed
+considering log /vault/audit/vbb-external/20261029T104248Z-file-combined-batch-500-r1/audit.json
+  Now: 2026-10-29 10:44
+  Last rotated at 2026-10-29 10:43
+  log does not need rotating (log size is below the 'size' threshold)
