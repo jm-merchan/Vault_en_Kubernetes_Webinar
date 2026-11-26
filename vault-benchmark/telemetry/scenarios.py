@@ -1,7 +1,7 @@
 import json,os,urllib.error
 from common import *
 STATE=Path(os.getenv('VBB_STATE_DIR','/tmp/vault/vbb-observability'));STATE.mkdir(mode=0o700,exist_ok=True)
-SCENARIOS=['none','file-default','file-no-request','file-combined','socket-default','socket-no-request','socket-combined']
+SCENARIOS=['none','file-default','file-filter-transit','file-no-data','file-no-request','file-combined','socket-default','socket-no-request','socket-combined']
 EXTERNAL_SCENARIOS=['tcp-default','tcp-combined','udp-default','udp-combined']
 def audit():return vault('sys/audit').get('data',{})
 def prepare(allow=False):
@@ -42,6 +42,10 @@ def configure(name):
  elif name.startswith('socket'):options.update(socket_type='unix',address='/vault/audit/benchmark.sock',write_timeout='2s')
  else:options['file_path']=os.getenv('VBB_FILE_PATH','/vault/audit/benchmark-audit.json')
  if name.endswith('no-request') or name.endswith('combined'):options['exclude']=json.dumps([{'condition':'"/request/mount_type" == transit','fields':['/request/data']}],separators=(',',':'))
+ # Transit entries keep their metadata but lose both request.data and response.data.
+ if name.endswith('no-data'):options['exclude']=json.dumps([{'condition':'"/request/mount_type" == transit','fields':['/request/data','/response/data']}],separators=(',',':'))
+ # Enterprise audit filter: only entries matching the expression reach the device, so Transit is not audited at all.
+ if name.endswith('filter-transit'):options['filter']='mount_point != "transit/"'
  kind='socket' if name.startswith(('socket','tcp','udp')) else 'file'
  desired=None if name=='none' else {'type':kind,'options':options,'local':True}
  active=devices.get('vbb/')

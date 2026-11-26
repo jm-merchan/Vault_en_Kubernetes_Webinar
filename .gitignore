@@ -5,3 +5,4 @@
 *.venv
 work/*
 vault-benchmark/vault-benchmark
+vault-benchmark/dist/
